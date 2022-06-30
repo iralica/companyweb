@@ -64,21 +64,24 @@ html, body{
 }
       
 .profile_info{
-    width: 70%;
     height: 80%;
+    width: 48%;
     display: flex;
     flex-direction: column;
 }
 .profile_photo{
-    size: 60%;
+    width: 600px;
+    height: 400px;
     align-self: center;  
+    margin-left: 20%;
 }
 .profile_info1{
-    width: 60%;
+    width: 100%;
     height: 10%;
-    margin: 5%;
-    float: centre; 
+    display: block;
+    margin-left: 22%;
 }
+
 .profile_description{
     width: 40%;
     height: 60%;
@@ -87,11 +90,14 @@ html, body{
     padding: .5em 1em;
     margin: 0 auto;
     float: left;
+    font-weight: 500;
 }
 .about_profile{
-    font-size: 18px;
+    font-size: 17px;
     width: 95%;
     height: 100%; 
+    margin-left: 29%;
+    font-weight: 300;
 }
 .profile_descr_text{
     color: black;
@@ -103,7 +109,7 @@ html, body{
 .body_inner{
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0, 0, 0.4); 
+    background-color: rgba(0,0, 0, 0.2); 
 }
 
 .hr{
@@ -111,4 +117,47 @@ html, body{
     width: 50%;
     size: 100px;
     color: black;
+}
+.blog_page{
+    width: 100%;
+    height: 90%;
+    box-sizing: border-box;
+    padding: 0 0 40px 0;
+    display: block;
+}
+
+.table{
+    box-sizing: border-box;
+    width: 50%;
+    height: 60%;
+    border: 1px solid black;
+    display: flex;
+}
+.caption{
+    
+    border: 1px solid black;
+}
+
+.thead{
+    
+    border: 2px solid black;
+}
+.th, .td{
+    border: 2px solid black; 
+}
+.contacts{
+    box-sizing: border-box;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    float: left;
+}
+.cont_detail{
+    width: 40%;
+    height: 50%;
+    display: block;
+    list-style: none;
+    font-size: medium;
 }
