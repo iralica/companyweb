@@ -123,15 +123,19 @@ html, body{
     height: 90%;
     box-sizing: border-box;
     padding: 0 0 40px 0;
-    display: block;
+    display: flex;
+    margin: auto;
+    
 }
 
 .table{
     box-sizing: border-box;
-    width: 50%;
+    width: 80%;
     height: 60%;
     border: 1px solid black;
     display: flex;
+    margin-left: 15px;
+    align-self: center;
 }
 .caption{
     
@@ -147,12 +151,18 @@ html, body{
 }
 .contacts{
     box-sizing: border-box;
-    width: 40%;
-    height: 100%;
+    width: 20%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
     float: left;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: 25px;
+    text-align: center;
+    margin-top: 15px;
 }
 .cont_detail{
     width: 40%;
@@ -160,4 +170,6 @@ html, body{
     display: block;
     list-style: none;
     font-size: medium;
+    padding: 30px 20px 15px 20px;
+    text-align: left;
 }
